@@ -1,0 +1,9 @@
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\bin\Release\netstandard2.0\Entidades.deps.json
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\bin\Release\netstandard2.0\Entidades.dll
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\bin\Release\netstandard2.0\Entidades.pdb
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\obj\Release\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\obj\Release\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\obj\Release\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\obj\Release\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\obj\Release\netstandard2.0\Entidades.dll
+C:\Users\Elian\Desktop\TrabajoPractico1\Entidades\obj\Release\netstandard2.0\Entidades.pdb

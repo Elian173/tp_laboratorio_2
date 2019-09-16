@@ -1,0 +1,13 @@
+C:\Users\Elian\Desktop\TrabajoPractico1\bin\Release\TrabajoPractico1.exe.config
+C:\Users\Elian\Desktop\TrabajoPractico1\bin\Release\TrabajoPractico1.exe
+C:\Users\Elian\Desktop\TrabajoPractico1\bin\Release\TrabajoPractico1.pdb
+C:\Users\Elian\Desktop\TrabajoPractico1\bin\Release\Entidades.dll
+C:\Users\Elian\Desktop\TrabajoPractico1\bin\Release\Entidades.pdb
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\TrabajoPractico1.FormCalculadora.resources
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\TrabajoPractico1.Properties.Resources.resources
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\MiCalculadora.csproj.CopyComplete
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\TrabajoPractico1.exe
+C:\Users\Elian\Desktop\TrabajoPractico1\obj\Release\TrabajoPractico1.pdb
