@@ -1,0 +1,6 @@
+E:\Programacion II\Tps\TP2\Elian_Rojas_TP2_2C\TP-02\Entidades\bin\Release\Entidades.dll
+E:\Programacion II\Tps\TP2\Elian_Rojas_TP2_2C\TP-02\Entidades\bin\Release\Entidades.pdb
+E:\Programacion II\Tps\TP2\Elian_Rojas_TP2_2C\TP-02\Entidades\obj\Release\Entidades.csprojAssemblyReference.cache
+E:\Programacion II\Tps\TP2\Elian_Rojas_TP2_2C\TP-02\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+E:\Programacion II\Tps\TP2\Elian_Rojas_TP2_2C\TP-02\Entidades\obj\Release\Entidades.dll
+E:\Programacion II\Tps\TP2\Elian_Rojas_TP2_2C\TP-02\Entidades\obj\Release\Entidades.pdb
