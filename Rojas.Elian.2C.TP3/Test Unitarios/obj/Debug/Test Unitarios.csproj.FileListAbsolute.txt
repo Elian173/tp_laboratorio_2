@@ -1,0 +1,21 @@
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.pdb
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Archivos.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Excepciones.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Archivos.pdb
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.pdb
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.pdb
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Excepciones.pdb
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csprojAssemblyReference.cache
+E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CopyComplete
+E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.dll
+E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.pdb

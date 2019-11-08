@@ -1,0 +1,13 @@
+C:\Users\Elian\Desktop\Rojas.Elian.2C.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\Elian\Desktop\Rojas.Elian.2C.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Elian\Desktop\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\Elian\Desktop\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.pdb
+E:\Rojas.Elian.2C.TP3\Archivos\bin\Debug\Archivos.dll
+E:\Rojas.Elian.2C.TP3\Archivos\bin\Debug\Archivos.pdb
+E:\Rojas.Elian.2C.TP3\Archivos\bin\Debug\Excepciones.dll
+E:\Rojas.Elian.2C.TP3\Archivos\bin\Debug\Excepciones.pdb
+E:\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+E:\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+E:\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.dll
+E:\Rojas.Elian.2C.TP3\Archivos\obj\Debug\Archivos.pdb
