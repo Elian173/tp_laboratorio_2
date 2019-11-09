@@ -10,7 +10,7 @@ namespace Main
         {
             Universidad uni = new Universidad();
 
-            Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,Alumno.EEstadoCuenta.Becado);
+            Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion, Alumno.EEstadoCuenta.Becado);
             uni += a1;
             try
             {

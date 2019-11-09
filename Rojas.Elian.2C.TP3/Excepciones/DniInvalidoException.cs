@@ -4,7 +4,7 @@ namespace Excepciones
 {
     public class DniInvalidoException: Exception
     {
-        private string mensajeBase; // No entiendo muy bien el uso que se pretende de este atributo.
+        private string mensajeBase; // No entiendo muy bien el uso que se pretende de este atributo. No vi que se use en el programa
 
         public DniInvalidoException( string mensaje, Exception innerException ) : base(mensaje, innerException)
         {

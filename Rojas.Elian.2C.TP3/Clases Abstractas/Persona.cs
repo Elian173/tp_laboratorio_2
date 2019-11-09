@@ -34,6 +34,12 @@ namespace EntidadesAbstractas
         {
         }
 
+        /// <summary>
+        /// Constructor basico clase persona , con validaciones mediante propiedades
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="nacionalidad"></param>
         public Persona( string nombre, string apellido, ENacionalidad nacionalidad )
         {
             Nombre = nombre;
@@ -41,11 +47,25 @@ namespace EntidadesAbstractas
             Nacionalidad = nacionalidad;
         }
 
+        /// <summary>
+        /// Constructor completo clase persona con dni formato entero , validado mediante propiedades
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona( string nombre, string apellido, int dni, ENacionalidad nacionalidad ) : this(nombre, apellido, nacionalidad)
         {
             DNI = dni;
         }
 
+        /// <summary>
+        /// Constructor completo clase persona con dni formato String, validado mediante propiedades
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Persona( string nombre, string apellido, string dni, ENacionalidad nacionalidad ) : this(nombre, apellido, nacionalidad)
         {
             StringToDNI = dni;
@@ -55,6 +75,9 @@ namespace EntidadesAbstractas
 
         #region Propiedades
 
+        /// <summary>
+        /// Accede al atributo apellido , al asignar verifica que sea un apellido valido
+        /// </summary>
         public string Apellido
         {
             get
@@ -67,6 +90,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Accede al atributo dni (formato entero), al asignar verifica que sea un dni valido
+        /// </summary>
         public int DNI
         {
             get
@@ -79,6 +105,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Accede al atributo nacionalidad
+        /// </summary>
         public ENacionalidad Nacionalidad
         {
             get
@@ -91,6 +120,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Accede al atributo nombre , al asignar verifica que sea un nombre valido
+        /// </summary>
         public string Nombre
         {
             get
@@ -103,6 +135,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Accede al atributo dni (formato string), al asignar verifica que sea un dni valido.
+        /// </summary>
         public string StringToDNI
         {
             set
@@ -115,6 +150,10 @@ namespace EntidadesAbstractas
 
         #region Metodos
 
+        /// <summary>
+        /// Hace publicos los datos de la persona
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder descripcion = new StringBuilder();
@@ -125,6 +164,12 @@ namespace EntidadesAbstractas
             return descripcion.ToString();
         }
 
+        /// <summary>
+        /// Valida que un dni asignado concuerde con la nacionalidad de la persona , caso contrario arroja una excepcion
+        /// </summary>
+        /// <param name="nacionalidad">nacionalidad de la persona</param>
+        /// <param name="dato">el dni</param>
+        /// <returns></returns>
         private int ValidarDni( ENacionalidad nacionalidad, int dato )
         {
             bool esValido = false;
@@ -159,6 +204,12 @@ namespace EntidadesAbstractas
             return dato;
         }
 
+        /// <summary>
+        /// Valida que un string tenga formato de un dni , y que este ademas coincida con la nacionalidad de la persona.
+        /// </summary>
+        /// <param name="nacionalidad">nacionalidad de la persona</param>
+        /// <param name="dato">el dni</param>
+        /// <returns></returns>
         private int ValidarDni( ENacionalidad nacionalidad, string dato )
         {
             if (string.IsNullOrEmpty(dato))
@@ -183,6 +234,11 @@ namespace EntidadesAbstractas
             //o reescrito el otro metodo dentro de este
         }
 
+        /// <summary>
+        /// Valida que un string sea del formato de un nombre, no sean caracteres vacios , null , o mayor a 25 caracteres , caso contrario arroja una excepcion
+        /// </summary>
+        /// <param name="dato"></param>
+        /// <returns></returns>
         private string ValidarNombreApellido( string dato )
         {
             bool esValido = true;

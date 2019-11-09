@@ -6,6 +6,9 @@ namespace Test_Unitarios
     [TestClass]
     public class TestMetodos
     {
+        /// <summary>
+        /// Test del metodo Persona.ValidarNombreApellido()
+        /// </summary>
         [TestMethod]
         public void TestValidarNombreApellido()
         {
@@ -27,6 +30,5 @@ namespace Test_Unitarios
             Assert.AreEqual(valorEsperado4, prueba4.Nombre);
             Assert.AreEqual(valorEsperado5, prueba5.Nombre);
         }
-
     }
 }

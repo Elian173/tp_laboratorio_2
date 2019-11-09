@@ -22,6 +22,14 @@ namespace EntidadesAbstractas
         {
         }
 
+        /// <summary>
+        /// Constructor completo de Universitario
+        /// </summary>
+        /// <param name="legajo"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Universitario( int legajo, string nombre, string apellido, string dni, ENacionalidad nacionalidad )
             : base(nombre, apellido, dni, nacionalidad)
         {
@@ -33,10 +41,10 @@ namespace EntidadesAbstractas
         #region Metodos
 
         /// <summary>
-        /// Verifica si el objeto comparado es igual
+        /// Verifica si el parametro que se le pasa es del mismo tipo del objeto que llama al metodo,  siendo este el caso , compara si sus dni y legajos son iguales
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>True si son iguales,  false si son diferentes</returns>
         public override bool Equals( object obj )
         {
             if (obj.GetType() == this.GetType())
@@ -55,6 +63,10 @@ namespace EntidadesAbstractas
             return false;
         }
 
+        /// <summary>
+        /// Devuelve un string con todos los datos del universitario
+        /// </summary>
+        /// <returns></returns>
         protected virtual string MostrarDatos()
         {
             StringBuilder descripcion = new StringBuilder();
@@ -80,6 +92,12 @@ namespace EntidadesAbstractas
 
         #region Sobrecarga de operadores
 
+        /// <summary>
+        /// Compara si dos universitarios son iguales
+        /// </summary>
+        /// <param name="pg1"></param>
+        /// <param name="pg2"></param>
+        /// <returns></returns>
         public static bool operator ==( Universitario pg1, Universitario pg2 )
         {
             if (pg1.Equals(pg2))
@@ -89,6 +107,12 @@ namespace EntidadesAbstractas
             return false;
         }
 
+        /// <summary>
+        /// Compara si dos universitarios son distintos
+        /// </summary>
+        /// <param name="pg1"></param>
+        /// <param name="pg2"></param>
+        /// <returns></returns>
         public static bool operator !=( Universitario pg1, Universitario pg2 )
         {
             if (!pg1.Equals(pg2))

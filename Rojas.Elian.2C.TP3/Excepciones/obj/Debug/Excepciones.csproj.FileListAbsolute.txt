@@ -8,3 +8,8 @@ E:\Rojas.Elian.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
 E:\Rojas.Elian.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
 E:\Rojas.Elian.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
 E:\Rojas.Elian.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Excepciones\obj\Debug\Excepciones.pdb

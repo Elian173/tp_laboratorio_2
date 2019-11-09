@@ -30,11 +30,22 @@ namespace Clases_Instanciables
         {
         }
 
+        /// <summary>
+        /// Constructor de clase que inicializa el atributo Random
+        /// </summary>
         static Profesor()//asumo que esto inicializa el parametro random
         {
             Profesor.random = new Random();
         }
 
+        /// <summary>
+        /// Constructor completo de un profesor , asigna una clase del dia aleatoria.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellido"></param>
+        /// <param name="dni"></param>
+        /// <param name="nacionalidad"></param>
         public Profesor( int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad ) : base(id, nombre, apellido, dni, nacionalidad)
         {
             this.clasesDelDia = new Queue<Universidad.EClases>();
@@ -45,6 +56,10 @@ namespace Clases_Instanciables
 
         #region Metodos
 
+        /// <summary>
+        /// Devuelve un string con los datos del profesor
+        /// </summary>
+        /// <returns></returns>
         protected override string MostrarDatos()
         {
             StringBuilder descripcion = new StringBuilder();
@@ -54,6 +69,10 @@ namespace Clases_Instanciables
             return descripcion.ToString();
         }
 
+        /// <summary>
+        /// Devuelve un string con las clases que el profesor da en el dia
+        /// </summary>
+        /// <returns></returns>
         protected override string ParticiparEnClase()
         {
             StringBuilder descripcion = new StringBuilder();
@@ -68,11 +87,18 @@ namespace Clases_Instanciables
             return descripcion.ToString();
         }
 
+        /// <summary>
+        /// Hace publicos los datos del profesor
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return MostrarDatos();
         }
 
+        /// <summary>
+        /// Genera dos clases aleatorias y las asigna a la lista clasesDelDia del profesor.
+        /// </summary>
         private void RandomClases()
         {
             this.clasesDelDia.Enqueue((Universidad.EClases) Profesor.random.Next(0, 4));
@@ -99,6 +125,12 @@ namespace Clases_Instanciables
 
         #region Sobrecarga Operadores
 
+        /// <summary>
+        /// Verifica si un profesor da determinada clase
+        /// </summary>
+        /// <param name="i">profesor</param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static bool operator ==( Profesor i, Universidad.EClases clase )
         {
             if (i.clasesDelDia.Contains(clase))
@@ -109,6 +141,12 @@ namespace Clases_Instanciables
             return false;
         }
 
+        /// <summary>
+        /// Verifica si un profesor no da determinada clase
+        /// </summary>
+        /// <param name="i">clase</param>
+        /// <param name="clase"></param>
+        /// <returns></returns>
         public static bool operator !=( Profesor i, Universidad.EClases clase )
         {
             if (!(i == clase))

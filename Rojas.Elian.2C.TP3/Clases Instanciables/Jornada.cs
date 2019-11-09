@@ -26,6 +26,9 @@ namespace Clases_Instanciables
 
         #region Propiedades
 
+        /// <summary>
+        /// Accede a la lista de alumnos
+        /// </summary>
         public List<Alumno> Alumno
         {
             get
@@ -38,6 +41,9 @@ namespace Clases_Instanciables
             }
         }
 
+        /// <summary>
+        /// Accede al tipo de clase
+        /// </summary>
         public Universidad.EClases Clase
         {
             get
@@ -50,6 +56,9 @@ namespace Clases_Instanciables
             }
         }
 
+        /// <summary>
+        /// Accede al atributo profesor
+        /// </summary>
         public Profesor Instructor
         {
             get
@@ -66,11 +75,19 @@ namespace Clases_Instanciables
 
         #region Constructores
 
+        /// <summary>
+        /// Constructor que inicia la lista de alumnos de la jornada.
+        /// </summary>
         private Jornada()
         {
             this.alumnos = new List<Alumno>();
         }
 
+        /// <summary>
+        /// Constructor completo de la jornada
+        /// </summary>
+        /// <param name="clase"></param>
+        /// <param name="instructor"></param>
         public Jornada( Universidad.EClases clase, Profesor instructor ) : this()
         {
             this.clase = clase;
@@ -81,6 +98,11 @@ namespace Clases_Instanciables
 
         #region Metodos
 
+        /// <summary>
+        /// Guarda los datos de la jornada en un archivo de texto en la carpeta bin del proyecto
+        /// </summary>
+        /// <param name="jornada">La jornada a guardar</param>
+        /// <returns></returns>
         public static bool Guardar( Jornada jornada )
         {
             string path = AppDomain.CurrentDomain.BaseDirectory + "DatosJornada.txt";
@@ -90,6 +112,10 @@ namespace Clases_Instanciables
             return true;
         }
 
+        /// <summary>
+        /// Lee los datos previamente guardados de una jornada en un archivo de texto
+        /// </summary>
+        /// <returns></returns>
         public static string Leer()
         {
             string path = AppDomain.CurrentDomain.BaseDirectory + "DatosJornada.txt";
@@ -100,6 +126,10 @@ namespace Clases_Instanciables
             return textoLeido;
         }
 
+        /// <summary>
+        /// Devuelve un string con todos los datos de la jornada
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder descripcion = new StringBuilder();
@@ -134,6 +164,12 @@ namespace Clases_Instanciables
 
         #region Sobrecarga Operadores
 
+        /// <summary>
+        /// Comprueba si un alumno pertenece a una jornada
+        /// </summary>
+        /// <param name="j">Jornada</param>
+        /// <param name="a">Alumno</param>
+        /// <returns></returns>
         public static bool operator ==( Jornada j, Alumno a )
         {
             if (j.alumnos.Contains(a))
@@ -144,6 +180,12 @@ namespace Clases_Instanciables
             return false;
         }
 
+        /// <summary>
+        /// Comprueba si un alumno no pertenece a una jornada
+        /// </summary>
+        /// <param name="j">Jornada</param>
+        /// <param name="a">Alumno</param>
+        /// <returns></returns>
         public static bool operator !=( Jornada j, Alumno a )
         {
             if (!(j == a))
@@ -154,6 +196,12 @@ namespace Clases_Instanciables
             return false;
         }
 
+        /// <summary>
+        /// Añade un alumno a una jornada
+        /// </summary>
+        /// <param name="j">Jornada</param>
+        /// <param name="a">Alumno</param>
+        /// <returns></returns>
         public static Jornada operator +( Jornada j, Alumno a )
         {
             if (j != a)

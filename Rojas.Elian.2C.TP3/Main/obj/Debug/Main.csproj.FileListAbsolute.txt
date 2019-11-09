@@ -28,3 +28,18 @@ E:\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.csprojAssemblyReference.cache
 E:\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.csproj.CopyComplete
 E:\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.exe
 E:\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Main.exe.config
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Main.exe
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Main.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Archivos.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Clases Abstractas.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Clases Instanciables.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Excepciones.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Archivos.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Clases Abstractas.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Clases Instanciables.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\bin\Debug\Excepciones.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.exe
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Main\obj\Debug\Main.pdb

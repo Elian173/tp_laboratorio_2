@@ -7,6 +7,9 @@ namespace Test_Unitarios
     [TestClass]
     public class TestExcepciones
     {
+        /// <summary>
+        /// Test de la excepcion Nacionalidad Invalida.
+        /// </summary>
         [TestMethod]
         public void TestNacionaildadInvalidaEx()
         {
@@ -35,6 +38,9 @@ namespace Test_Unitarios
             Assert.IsFalse(extranjeroValido);
         }
 
+        /// <summary>
+        /// Test de la Excepcion Alumno repetido
+        /// </summary>
         [TestMethod]
         public void TestAlumnoRepetidoEx()
         {

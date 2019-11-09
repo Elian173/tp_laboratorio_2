@@ -1,7 +1,7 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
-using System;
 
 namespace Archivos
 {
@@ -15,7 +15,6 @@ namespace Archivos
         /// <returns>True si guarda correctamente , False si no</returns>
         public bool Guardar( string archivo, T datos )
         {
-
             XmlTextWriter writer = null;
             XmlSerializer serializer = new XmlSerializer(typeof(T));
             bool guardado = true;
@@ -37,7 +36,6 @@ namespace Archivos
             }
 
             return guardado;
-
         }
 
         /// <summary>

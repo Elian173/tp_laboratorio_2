@@ -19,3 +19,24 @@ E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csprojAssemblyRefe
 E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CopyComplete
 E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.dll
 E:\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Test Unitarios.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Archivos.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Excepciones.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Archivos.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Abstractas.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Clases Instanciables.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Excepciones.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.csproj.CopyComplete
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Rojas.Elian.2C.TP3\Test Unitarios\obj\Debug\Test Unitarios.pdb
