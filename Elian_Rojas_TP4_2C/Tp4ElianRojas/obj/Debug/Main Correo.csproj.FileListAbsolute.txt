@@ -1,0 +1,12 @@
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\bin\Debug\Tp4ElianRojas.exe.config
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\bin\Debug\Tp4ElianRojas.exe
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\bin\Debug\Tp4ElianRojas.pdb
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Main Correo.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Tp4ElianRojas.FormularioCorreo.resources
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Tp4ElianRojas.Properties.Resources.resources
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Main Correo.csproj.GenerateResource.cache
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Tp4ElianRojas.exe
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Tp4ElianRojas.pdb
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\bin\Debug\Entidades.dll
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\bin\Debug\Entidades.pdb
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Tp4ElianRojas\obj\Debug\Main Correo.csproj.CopyComplete

@@ -1,0 +1,5 @@
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\bin\Debug\Entidades.dll
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.dll
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.pdb
