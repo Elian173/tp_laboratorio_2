@@ -1,18 +1,6 @@
 ﻿using System;
 using System.Threading;
 
-/*Paquete
-1. Implementar la interfaz IMostrar, siendo su tipo genérico Paquete. 2. MostrarDatos utilizará string.Format con el siguiente formato "{0} para {1}", p.trackingID,
-p.direccionEntrega para compilar la información del paquete.
-3. La sobrecarga del método ToString retornará la información del paquete.
-4. Dos paquetes serán iguales siempre y cuando su Tracking ID sea el mismo.
-5. MockCicloDeVida hará que el paquete cambie de estado de la siguiente forma:
-a. Colocar una demora de 4 segundos.
-b. Pasar al siguiente estado.
-c. Informar el estado a través de InformarEstado. EventArgs no tendrá ningún dato extra.
-d. Repetir las acciones desde el punto A hasta que el estado sea Entregado.
-e. Finalmente guardar los datos del paquete en la base de datos*/
-
 namespace Entidades
 {
     public class Paquete: IMostrar<Paquete>
@@ -93,6 +81,7 @@ namespace Entidades
         #endregion Constructores
 
         #region Metodos
+
         /// <summary>
         /// Muesta los datos de un paquete
         /// </summary>
@@ -135,6 +124,7 @@ namespace Entidades
         #endregion Metodos
 
         #region Sobrecarga de operadores
+
         /// <summary>
         /// Compara dos paquetes en base a su tracking Id
         /// </summary>
@@ -164,6 +154,7 @@ namespace Entidades
             }
             return false;
         }
-        #endregion
+
+        #endregion Sobrecarga de operadores
     }
 }

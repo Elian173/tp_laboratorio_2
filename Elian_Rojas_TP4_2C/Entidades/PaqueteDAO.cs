@@ -1,9 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Data.SqlClient;
-using System;
 
 namespace Entidades
 {
@@ -17,15 +13,17 @@ namespace Entidades
         #endregion Atributos
 
         #region Constructor
+
         static PaqueteDAO()
         {
-            conexion = new SqlConnection("./SQL"); // :( no funciona
+            conexion = new SqlConnection(".//SQL"); // :( no funciona
             comando = new SqlCommand();
         }
 
         #endregion Constructor
 
         #region Metodos
+
         /// <summary>
         /// Inserta un paquete en la base de datos ( no funciona )
         /// </summary>
@@ -40,8 +38,10 @@ namespace Entidades
                 command.Parameters.AddWithValue("@direccionEntrega", paquete.DireccionEntrega);
                 command.Parameters.AddWithValue("@trackingID", paquete.TrackingID);
                 command.Parameters.AddWithValue("@alumno", "Elian Rojas");
+
                 PaqueteDAO.conexion.Open();
-                command.ExecuteNonQuery();
+                PaqueteDAO.comando = command;
+                PaqueteDAO.comando.ExecuteNonQuery();
             }
             catch (Exception e)
             {
@@ -51,14 +51,12 @@ namespace Entidades
             {
                 if (conexion != null)
                 {
-                conexion.Close();
+                    conexion.Close();
                 }
-                    
             }
             return true;
-
         }
+
         #endregion Metodos
     }
 }
-

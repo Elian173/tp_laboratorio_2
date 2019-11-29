@@ -1,7 +1,8 @@
 ﻿using Entidades;
 using System;
-using System.Windows.Forms;
 using System.Collections.Generic;
+using System.Windows.Forms;
+
 namespace Tp4ElianRojas
 {
     public partial class FormularioCorreo: Form
@@ -16,7 +17,7 @@ namespace Tp4ElianRojas
 
         private void buttonAgregar_Click( object sender, EventArgs e )
         {
-            Paquete paquete = new Paquete(maskedTextBoxTrackingId.Text , textBoxDireccion.Text);
+            Paquete paquete = new Paquete(maskedTextBoxTrackingId.Text, textBoxDireccion.Text);
             paquete.InformaEstado += paq_InformaEstado;
 
             try
@@ -74,7 +75,6 @@ namespace Tp4ElianRojas
             correo.FinEntregas();
         }
 
-
         private void buttonMostrarTodos_Click( object sender, EventArgs e )
         {
             this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>) correo);
@@ -82,7 +82,6 @@ namespace Tp4ElianRojas
 
         private void MostrarInformacion<T>( IMostrar<T> elemento )
         {
-
             string descripcion = string.Empty;
 
             if (elemento != null)
@@ -91,8 +90,6 @@ namespace Tp4ElianRojas
                 {
                     descripcion = ((Paquete) elemento).MostrarDatos((IMostrar<Paquete>) elemento);
                 }
-
-
                 else if (elemento is Correo)
                 {
                     descripcion = correo.MostrarDatos((IMostrar<List<Paquete>>) elemento);
@@ -104,13 +101,11 @@ namespace Tp4ElianRojas
                 {
                     descripcion.Guardar("salida.txt");
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     MessageBox.Show("Error guardando el archivo", "ERROR", MessageBoxButtons.OK);
                 }
-
             }
         }
-
     }
 }

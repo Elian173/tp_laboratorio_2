@@ -1,6 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Entidades;
-
+﻿using Entidades;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Test_unitarios
 {
@@ -39,8 +38,6 @@ namespace Test_unitarios
             }
 
             Assert.IsTrue(ok);
-
         }
-
     }
 }

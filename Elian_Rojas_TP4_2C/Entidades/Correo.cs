@@ -6,9 +6,11 @@ namespace Entidades
     public class Correo: IMostrar<List<Paquete>>
     {
         #region Atributos
+
         private List<Thread> mockPaquetes;
         private List<Paquete> paquetes;
-        #endregion
+
+        #endregion Atributos
 
         #region Constructores
 
