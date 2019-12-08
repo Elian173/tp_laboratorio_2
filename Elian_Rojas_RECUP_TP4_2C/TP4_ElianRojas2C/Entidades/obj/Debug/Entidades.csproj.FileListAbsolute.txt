@@ -1,0 +1,10 @@
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\bin\Debug\Entidades.dll
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.dll
+C:\Users\Elian\Desktop\TP4 ENTREGA 29\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Elian_Rojas_RECUP_TP4_2C\TP4_ElianRojas2C\Entidades\bin\Debug\Entidades.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Elian_Rojas_RECUP_TP4_2C\TP4_ElianRojas2C\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Elian_Rojas_RECUP_TP4_2C\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Elian_Rojas_RECUP_TP4_2C\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.dll
+C:\Users\Elian\Desktop\Arreglo repositorios\tp_laboratorio_2\Elian_Rojas_RECUP_TP4_2C\TP4_ElianRojas2C\Entidades\obj\Debug\Entidades.pdb
