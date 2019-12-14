@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Text;
 
 namespace Tp4ElianRojas
 {
@@ -57,16 +58,22 @@ namespace Tp4ElianRojas
             }
         }
 
-        private void paq_InformarError( object sender, Exception errorProducido )
+        private void paq_InformarError( object sender, Exception errorProducido ,Paquete paqueteError)
         {
             if (this.InvokeRequired)
             {
                 Paquete.DelegadoException d = new Paquete.DelegadoException(paq_InformarError);
-                this.Invoke(d, new object[] { sender, errorProducido });
+                this.Invoke(d, new object[] { sender, errorProducido , paqueteError});
             }
             else
             {
-                MessageBox.Show(errorProducido.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                StringBuilder desc = new StringBuilder();
+                desc.Append("Error en el paquete ");
+                desc.Append(paqueteError.TrackingID);
+                desc.AppendLine();
+                desc.Append(errorProducido.Message);
+
+                MessageBox.Show(desc.ToString() , "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

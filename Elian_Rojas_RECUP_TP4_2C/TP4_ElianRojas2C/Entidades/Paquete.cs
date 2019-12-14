@@ -21,7 +21,7 @@ namespace Entidades
 
         public delegate void DelegadoEstado( object sende, EventArgs e );
 
-        public delegate void DelegadoException( object sender, Exception errorProducido );
+        public delegate void DelegadoException( object sender, Exception errorProducido , Paquete paqueteError);
 
         public enum EEstado
         {
@@ -139,7 +139,7 @@ namespace Entidades
             }
             catch (Exception e)
             {
-                this.InformaError(this, e);
+                this.InformaError(this, e , this);
             }
         }
 
