@@ -21,6 +21,7 @@ namespace Tp4ElianRojas
             {
                 Paquete paquete = new Paquete(maskedTextBoxTrackingId.Text, textBoxDireccion.Text);
                 paquete.InformaEstado += paq_InformaEstado;
+                paquete.InformaError += paq_InformarError;
 
                 try
                 {
@@ -53,6 +54,19 @@ namespace Tp4ElianRojas
             else
             {
                 this.ActualizarEstados();
+            }
+        }
+
+        private void paq_InformarError( object sender, Exception errorProducido )
+        {
+            if (this.InvokeRequired)
+            {
+                Paquete.DelegadoException d = new Paquete.DelegadoException(paq_InformarError);
+                this.Invoke(d, new object[] { sender, errorProducido });
+            }
+            else
+            {
+                MessageBox.Show(errorProducido.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

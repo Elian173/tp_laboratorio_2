@@ -17,11 +17,11 @@ namespace Entidades
 {
     public class Paquete: IMostrar<Paquete>
     {
-        public static Exception threadException = null; // Utilizo esto para las excepciones que puedan salir en el thread "MockCiclioDeVida" , mas que nada las relacionadas a la base de datos.
-
         #region Tipos Anidados
 
         public delegate void DelegadoEstado( object sende, EventArgs e );
+
+        public delegate void DelegadoException( object sender, Exception errorProducido );
 
         public enum EEstado
         {
@@ -33,6 +33,8 @@ namespace Entidades
         #region Eventos
 
         public event DelegadoEstado InformaEstado;
+
+        public event DelegadoException InformaError;
 
         #endregion Eventos
 
@@ -131,14 +133,13 @@ namespace Entidades
                 this.estado++;
                 this.InformaEstado(this, null);
             }
-
             try
             {
                 PaqueteDAO.Insertar(this);
             }
             catch (Exception e)
             {
-                Paquete.threadException = e;
+                this.InformaError(this, e);
             }
         }
 

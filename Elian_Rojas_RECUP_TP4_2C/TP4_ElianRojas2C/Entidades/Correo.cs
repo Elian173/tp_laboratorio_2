@@ -99,11 +99,6 @@ namespace Entidades
 
             hilo.Start();
 
-            if (Paquete.threadException != null)
-            {
-                throw Paquete.threadException;
-            }
-
             return c;
         }
 
